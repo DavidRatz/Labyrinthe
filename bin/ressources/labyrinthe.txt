@@ -1,0 +1,10 @@
+E	P	P	P	M	M	M	M	M	M
+M	P	M	M	P	P	M	P	M	M
+M	P	M	M	P	M	M	P	M	M
+M	P	M	M	P	M	M	P	M	M
+M	P	M	M	P	M	M	P	M	M
+M	P	P	P	P	P	M	P	M	M
+M	P	M	M	P	M	P	P	P	M
+M	P	M	P	P	P	P	M	P	M
+P	P	M	P	P	M	P	M	P	PO
+M	M	M	M	M	M	M	M	M	M

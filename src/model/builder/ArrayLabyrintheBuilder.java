@@ -1,5 +1,7 @@
 package model.builder;
 
+import java.util.Arrays;
+
 import factory.LabyrintheFactory;
 import model.labyrinthe.Direction;
 import model.labyrinthe.Labyrinthe;
@@ -12,7 +14,6 @@ public class ArrayLabyrintheBuilder implements LabyrintheBuilder {
     public void begin(int nbLine, int nbColumn, LabyrintheFactory factory) {
         // TODO Auto-generated method stub
         labyrinthe = new ArrayLabyrinthe(nbLine, nbColumn);
-        labyrinthe.setEntry(0, 0);
         this.factory = factory;
     }
 
@@ -35,9 +36,14 @@ public class ArrayLabyrintheBuilder implements LabyrintheBuilder {
     }
 
     @Override
+    public void setEntry(int lig, int col) {
+        labyrinthe.setEntry(lig, col);
+    }
+
+    @Override
     public void end() {
         // TODO Auto-generated method stub
-        factory = null;
+        System.out.println("Fin builder labyrinthe");
     }
 
     @Override
